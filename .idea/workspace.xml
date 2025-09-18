@@ -5,23 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fb3c9e1-773c-47a4-ba9c-7cb464582c6d" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/controller/EstimateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/controller/ReservationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/carparter_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/carparter_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/carparter/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/carparter/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/Controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/Controller/CarCenterController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/Controller/CarCenterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/controller/CarCenterController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/Controller/EstimateController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/Controller/UnitController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/controller/CarCenterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/controller/CarCenterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/controller/EstimateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/controller/EstimateController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/controller/ReservationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/controller/ReviewReplyController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/controller/ReviewReportController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/exception/DuplicateException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/repository/CarCenterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/repository/CarCenterRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/Controller/UnitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/controller/UnitController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/dto/UsedPartReqDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/dto/UsedPartReqDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/entity/CarCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/entity/CarCenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/repository/ReviewReplyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/repository/ReviewReplyRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/repository/ReviewRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/repository/ReviewRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/service/CarCenterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/service/CarCenterService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/service/EstimateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/service/EstimateService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/service/QuoteRequestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/service/QuoteRequestService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carparter/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/carparter/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/service/ReservationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/service/ReservationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/service/ReviewReplyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/service/ReviewReplyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/service/ReviewService.java" beforeDir="false" afterPath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/service/ReviewService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/service/UsedCarService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/carparter/src/main/java/com/spring/carparter/service/UsedPartImageService.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
