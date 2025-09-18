@@ -29,7 +29,6 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     implementation 'org.springframework.boot:spring-boot-starter-security'
     implementation 'org.springframework.boot:spring-boot-starter-web'       // MVC(Tomcat)
-    implementation 'org.springframework.boot:spring-boot-starter-webflux'  // ← WebClient 여기 들어있음
 
     compileOnly 'org.projectlombok:lombok'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
@@ -44,7 +43,11 @@ dependencies {
     implementation 'software.amazon.awssdk:s3:2.25.43' // 버전은 최신 버전을 확인하고 사용하세요.
     implementation 'org.springframework.boot:spring-boot-starter-webflux' // 카카오 쓸때 필요해
 
+    implementation 'com.google.firebase:firebase-admin:9.2.0'
 
+    implementation 'io.jsonwebtoken:jjwt-api:0.12.5'
+    runtimeOnly 'io.jsonwebtoken:jjwt-impl:0.12.5'
+    runtimeOnly 'io.jsonwebtoken:jjwt-gson:0.12.5' // 또는 jackson 사용 시 'jjwt-jackson'
 }
 
 tasks.named('test') {
